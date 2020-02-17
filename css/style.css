@@ -1,0 +1,29 @@
+body {
+    background-color: goldenrod;
+}
+main {
+margin: 30px auto;
+width: 800px;
+}
+
+main h1 {
+    color: crimson;
+    text-align: center;
+    font-size: 40px;
+    padding: 10px;
+    margin: auto;
+    background-color: burlywood;
+    text-shadow: 7px 7px 7px red;
+    border: 5px dashed saddlebrown;
+}
+
+main p {
+    color: rgb(143, 43, 3);
+    text-align: center;
+    margin:auto ;
+    font-size: x-large;
+    background-color: darkgray;
+    padding: 15px;
+    text-shadow: 7px 7px 7px rgb(180, 100, 100);
+    border: 3px solid sienna;
+}
