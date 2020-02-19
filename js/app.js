@@ -129,6 +129,9 @@ for (var i=1;i<4; i++) {
         alert ('GOOOOOOAL');
         break;
     }
+    if (i==3) {
+        break;
+    }
     else if (guessing<myNum) {
         // console.log(guessing)
         alert ('your guessing is lower than My number');
@@ -139,7 +142,9 @@ for (var i=1;i<4; i++) {
         console.log(guessing)
         alert ('your guessing is higher than My number'  )
     }
-
+    else {
+      alert ("your answer is wrong");
+    }
 }
 var myCars =['ford','lincolin','jeep','tesla','bugati','bmw','chevrolet'];
 var guessMyCar = prompt ('what do you think my favorit american cars ?  ');
@@ -154,6 +159,9 @@ for (var i =0; i<6; i++) {
     }
     x =0;
     if (yes == 0){
+        break;
+    }
+    if (i==5) {
         break;
     }
     guessMyCar = prompt ('what do you think my favorit american cars ?  ');
