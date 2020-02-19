@@ -129,7 +129,7 @@ for (var i=1;i<4; i++) {
         alert ('GOOOOOOAL');
         break;
     }
-    if (i==3) {
+    if (i==4) {
         break;
     }
     else if (guessing<myNum) {
@@ -161,9 +161,8 @@ for (var i =0; i<6; i++) {
     if (yes == 0){
         break;
     }
-    if (i==5) {
-        break;
-    }
+    if (i==5) 
+    break;
     guessMyCar = prompt ('what do you think my favorit american cars ?  ');
 }
 alert ('Thank you ' + name +  ' for your visiting my project' + ' and your score is ' + score)
