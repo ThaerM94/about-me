@@ -123,13 +123,14 @@ var myNum = 99;
 var guessing = prompt('can you guess my number ? , it\'s between 95 to 99');
 // console.log("whaaat?", guessing);
 
-for (var i=1;i<4; i++) {
+for (var i=0;i<4; i++) {
     if (myNum == guessing) {
         score = score+1;
         alert ('GOOOOOOAL');
         break;
     }
-    if (i==4) {
+    if (i==3) {
+        alert ('you dont have another chance !')
         break;
     }
     else if (guessing<myNum) {
