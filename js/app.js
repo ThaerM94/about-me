@@ -7,6 +7,7 @@ var name =prompt ('what is your name ?');
 var likeMe = prompt ('do you think i love food ?');
 // console.log(likeMe);
 
+function ques1(){
 var born =  prompt('Am i borned in one of these years 1994 , 1995 , 1996 ?');
 // console.log(born);
 var score = 0;
@@ -29,7 +30,11 @@ switch (born.toLowerCase()) {
     default : 
     alert ('your answer is incorrect repeat please')
 }
+}
+ques1();
 
+
+function ques2(){
 var graduation = prompt ('Am i  graduated from my university ?');
 // console.log(graduation);
 
@@ -51,6 +56,13 @@ switch (graduation.toLowerCase()) {
     default : 
     alert ('you should repeat')
 }
+}
+
+ques2();
+
+
+function ques3(){
+
 
 var games = prompt ('Am i a good player of playstation games ?');
 // console.log(games);
@@ -73,6 +85,11 @@ switch (games.toLowerCase()) {
     default : 
     alert ('answer please')
 }
+}
+ques3();
+
+
+function ques4(){
 
 
 var sport = prompt ('do you think i love swimming ?');
@@ -96,6 +113,12 @@ switch (sport.toLowerCase()) {
     default : 
     alert ('your answer is incorrect repeat please')
 }
+}
+
+ques4();
+
+function ques5(){
+
 
 var funny = prompt (' do you think i\'am a quait person ?');
 // console.log(funny);
@@ -118,6 +141,11 @@ switch (funny.toLowerCase()) {
     default : 
     alert ('your answer is incorrect repeat please')
 }
+}
+ques5();
+
+function ques6(){
+
 
 var myNum = 99;
 var guessing = prompt('can you guess my number ? , it\'s between 95 to 99');
@@ -147,6 +175,12 @@ for (var i=0;i<4; i++) {
       alert ("your answer is wrong");
     }
 }
+}
+ques6();
+
+function ques7(){
+
+
 var myCars =['ford','lincolin','jeep','tesla','bugati','bmw','chevrolet'];
 var guessMyCar = prompt ('what do you think my favorit american cars ?  ');
 for (var i =0; i<6; i++) {
@@ -166,4 +200,7 @@ for (var i =0; i<6; i++) {
     break;
     guessMyCar = prompt ('no it\'s not try again and think my favorit american cars ?  ');
 }
+
+}
+ques7();
 alert ('Thank you ' + name +  ' for your visiting my project' + ' and your score is ' + score)
