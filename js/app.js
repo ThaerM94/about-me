@@ -6,11 +6,11 @@ var name =prompt ('what is your name ?');
 // console.log(name);
 var likeMe = prompt ('do you think i love food ?');
 // console.log(likeMe);
+var score = 0;
 
 function ques1(){
 var born =  prompt('Am i borned in one of these years 1994 , 1995 , 1996 ?');
 // console.log(born);
-var score = 0;
 
 switch (born.toLowerCase()) {
     case 'yes' : 
