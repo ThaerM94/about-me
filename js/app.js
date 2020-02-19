@@ -164,6 +164,6 @@ for (var i =0; i<6; i++) {
     }
     if (i==5) 
     break;
-    guessMyCar = prompt ('what do you think my favorit american cars ?  ');
+    guessMyCar = prompt ('no it\'s not try again and think my favorit american cars ?  ');
 }
 alert ('Thank you ' + name +  ' for your visiting my project' + ' and your score is ' + score)
