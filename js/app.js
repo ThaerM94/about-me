@@ -1,17 +1,12 @@
 'use strict';
 
 var hiMe = prompt ('hi friend can you say hi to me ?');
-// console.log(hiMe);
 var name =prompt ('what is your name ?');
-// console.log(name);
 var likeMe = prompt ('do you think i love food ?');
-// console.log(likeMe);
 var score = 0;
 
 function ques1(){
 var born =  prompt('Am i borned in one of these years 1994 , 1995 , 1996 ?');
-// console.log(born);
-
 switch (born.toLowerCase()) {
     case 'yes' : 
     alert ('you goal it ');
@@ -36,8 +31,6 @@ ques1();
 
 function ques2(){
 var graduation = prompt ('Am i  graduated from my university ?');
-// console.log(graduation);
-
 switch (graduation.toLowerCase()) {
     case 'yes' :
     alert ('congartulat  me');
@@ -62,11 +55,7 @@ ques2();
 
 
 function ques3(){
-
-
 var games = prompt ('Am i a good player of playstation games ?');
-// console.log(games);
-
 switch (games.toLowerCase()) {
     case 'yes' :
     alert ('i\'am vs you');
@@ -88,13 +77,8 @@ switch (games.toLowerCase()) {
 }
 ques3();
 
-
 function ques4(){
-
-
 var sport = prompt ('do you think i love swimming ?');
-// console.log(sport);
-
 switch (sport.toLowerCase()) {
     case 'yes' :
     alert ('i\'am an olympic champion ');
@@ -118,11 +102,7 @@ switch (sport.toLowerCase()) {
 ques4();
 
 function ques5(){
-
-
 var funny = prompt (' do you think i\'am a quait person ?');
-// console.log(funny);
-
 switch (funny.toLowerCase()) {
     case 'yes' :
     alert ('thank you ');
@@ -145,12 +125,8 @@ switch (funny.toLowerCase()) {
 ques5();
 
 function ques6(){
-
-
 var myNum = 99;
 var guessing = prompt('can you guess my number ? , it\'s between 95 to 99');
-// console.log("whaaat?", guessing);
-
 for (var i=0;i<4; i++) {
     if (myNum == guessing) {
         score = score+1;
@@ -162,7 +138,6 @@ for (var i=0;i<4; i++) {
         break;
     }
     else if (guessing<myNum) {
-        // console.log(guessing)
         alert ('your guessing is lower than My number');
         guessing = prompt('you have another chance'  )
 
@@ -179,8 +154,6 @@ for (var i=0;i<4; i++) {
 ques6();
 
 function ques7(){
-
-
 var myCars =['ford','lincolin','jeep','tesla','bugati','bmw','chevrolet'];
 var guessMyCar = prompt ('what do you think my favorit american cars ?  ');
 for (var i =0; i<6; i++) {
@@ -200,7 +173,6 @@ for (var i =0; i<6; i++) {
     break;
     guessMyCar = prompt ('no it\'s not try again and think my favorit american cars ?  ');
 }
-
 }
 ques7();
 alert ('Thank you ' + name +  ' for your visiting my project' + ' and your score is ' + score)
